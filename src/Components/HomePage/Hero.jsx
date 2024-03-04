@@ -13,7 +13,7 @@ export default function Hero() {
           <BtnLight BtnTxt="See prices" BtnStyle="black" />
         </div>
         <div className="hero-img">
-          <img src="src\assets\images\Ride-with-Uber.jpg" alt="" />
+          <img src="src\images\Ride-with-Uber.jpg" alt="" />
         </div>
       </div>
     </section>
