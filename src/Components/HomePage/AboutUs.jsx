@@ -11,7 +11,7 @@ export default function AboutUs() {
       <div className="info-container">
         {!isSmallScreen && (
           <div className="about-us-img ">
-            <img src="src\images\earner-illustra.jpg" alt="" />
+            <img src="public\images\earner-illustra.jpg" alt="" />
           </div>
         )}
         <AboutInfo
@@ -22,7 +22,7 @@ export default function AboutUs() {
         />
         {isSmallScreen && (
           <div className="about-us-img duplicate">
-            <img src="src\images\earner-illustra.jpg" alt="" />
+            <img src="public\images\earner-illustra.jpg" alt="" />
           </div>
         )}
       </div>
@@ -35,7 +35,7 @@ export default function AboutUs() {
           BtnUderTxt="Check out our solutions"
         />
         <div className="about-us-img">
-          <img src="src\images\u4b-square.jpg" alt="" />
+          <img src="public\images\u4b-square.jpg" alt="" />
         </div>
       </div>
     </section>

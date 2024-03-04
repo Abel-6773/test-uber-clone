@@ -55,11 +55,11 @@ export default function FooterIcons() {
         </div>
         <div className="appstore-links">
           <NavLink className="playstore">
-            <img src="src\images\google-play-badge.png" alt="" />
+            <img src="public\images\google-play-badge.png" alt="" />
           </NavLink>
           <NavLink className="applestore">
             <img
-              src="src\images\Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg"
+              src="public\images\Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg"
               alt=""
             />
           </NavLink>
