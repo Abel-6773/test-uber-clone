@@ -1,0 +1,18 @@
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 0px;
+}
+.hero-img img {
+  width: 550px;
+  height: 700px;
+  border-radius: 10px;
+}
+.hero-input {
+  width: 500px;
+}
+.hero-input h1,
+.hero-input p {
+  color: var(--white);
+}

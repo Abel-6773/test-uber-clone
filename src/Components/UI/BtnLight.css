@@ -1,0 +1,6 @@
+.btn-light button {
+  padding: 8px 25px;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: var(--white);
+}

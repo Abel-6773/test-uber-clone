@@ -1,0 +1,23 @@
+.page-links {
+  margin: 10px 0px;
+}
+.page-links a {
+  text-decoration: none;
+  color: var(--white);
+}
+.page-links ul a:hover {
+  text-decoration: underline var(--white);
+  text-underline-offset: 20px;
+}
+.page-links li {
+  list-style: none;
+  padding: 10px 20px;
+}
+.page-links,
+.page-links ul {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  margin-right: 35px;
+}

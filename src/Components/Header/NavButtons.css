@@ -1,0 +1,20 @@
+.nav-buttons button {
+  color: white;
+  padding: 10px 20px;
+  background-color: var(--black);
+  border: 1px solid black;
+  border-radius: 25px;
+}
+.nav-buttons button:hover {
+  background-color: var(--darkGray);
+}
+.nav-buttons .register {
+  background-color: var(--white);
+  color: var(--black);
+}
+.nav-buttons .register:hover {
+  background-color: #f6f6f6;
+}
+.globe-icon {
+  padding: 0px 5px;
+}
