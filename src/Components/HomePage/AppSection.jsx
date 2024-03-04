@@ -7,13 +7,13 @@ export default function AppSection() {
     {
       id: "ride",
       header: "Download the Uber app",
-      qrCode: "public/images/uberRide.jpg",
+      qrCode: "/images/uberRide.jpg",
       hovered: false,
     },
     {
       id: "driver",
       header: "Download the Uber Driver app",
-      qrCode: "public/images/uberDriver.jpg",
+      qrCode: "/images/uberDriver.jpg",
       hovered: false,
     },
   ];
