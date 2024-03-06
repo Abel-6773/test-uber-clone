@@ -18,8 +18,6 @@ body {
 .center {
   text-align: center;
 }
-/* .container
-.btn */
 .txt-xl {
   font-size: 48px;
   line-height: 60px;
@@ -72,15 +70,9 @@ body {
   margin: auto;
 }
 .container-lg {
-  max-width: 1100px;
+  max-width: 1160px;
   padding: 0px 30px;
   margin: auto;
-}
-
-@media (max-width: 1280px) {
-  .container-xl {
-    max-width: 1100px;
-  }
 }
 @media (max-width: 1100px) {
   /* header */
@@ -91,6 +83,10 @@ body {
   .nav-buttons .help {
     display: none;
   }
+  .nav-buttons .ham-button {
+    display: block;
+  }
+
   /* homepage */
 
   /* hero */
@@ -181,10 +177,18 @@ body {
   }
 }
 @media (max-width: 400px) {
+  /* header */
+  .logo {
+    margin-right: 0px;
+  }
+  /* utilities */
   .txt-xl {
     font-size: 40px;
   }
   .txt-lg {
     font-size: 26px;
+  }
+  .container-xl {
+    padding: 0px;
   }
 }

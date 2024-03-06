@@ -6,12 +6,14 @@
   grid-template-columns: 3fr 1fr;
   column-gap: 60px;
 } */
-.icon-container,
+/* .icon-container, */
 .icon-container div {
   display: flex;
   justify-content: space-between;
 }
 .icon-container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
   padding: 50px 0px;
   align-items: center;
 }
@@ -19,7 +21,9 @@
   max-width: 400px;
 }
 .icon-container a {
-  padding: 15px 20px 15px 0px;
+  display: inline-block;
+  padding: 15px 15px 15px 15px;
+  text-align: center;
   /* margin: 0px 60px 0px 0px; */
   border-radius: 10px;
 }
@@ -29,7 +33,7 @@
 }
 .localization div {
   display: flex;
-  padding: 10px 30px 10px 0px;
+  padding: 10px 10px 10px 10px;
   border-radius: 10px;
 }
 .localization-icon {
