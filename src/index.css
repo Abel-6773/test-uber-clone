@@ -97,11 +97,11 @@ body {
   /* homepage */
 
   /* hero */
-  .hero-content {
+  .homepage-hero-content {
     display: block;
     padding: 50px 30px;
   }
-  .hero-img img {
+  .homepage-hero-img img {
     width: 100%;
     height: 100%;
     margin-top: 30px;
@@ -110,12 +110,12 @@ body {
   .to {
     width: 100%;
   }
-  .hero-input,
-  .hero-input input {
+  .homepage-hero-input,
+  .homepage-hero-input input {
     width: 100%;
   }
   /* about-us */
-  .info-container {
+  .about-us .info-container {
     display: block;
   }
   .about-us-img img {
