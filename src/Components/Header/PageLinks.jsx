@@ -3,14 +3,14 @@ import "./PageLinks.css";
 export default function PageLinks() {
   return (
     <div className="page-links ">
-      <NavLink>
+      <NavLink to="/">
         <p className="logo txt-logo">Uber</p>
       </NavLink>
       <ul>
         <NavLink>
           <li>Passing</li>
         </NavLink>
-        <NavLink>
+        <NavLink to="DriversPage">
           <li>For drivers</li>
         </NavLink>
         <NavLink>

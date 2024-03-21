@@ -2,9 +2,14 @@ import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 import { faX } from "@fortawesome/free-solid-svg-icons";
+import { useContext } from "react";
+import HamMenuContext from "../../Services/Context/HamMenuContext";
 import "./NavButtons.css";
 
-export default function NavButtons({ HamMenuActive, toggler }) {
+export default function NavButtons() {
+  const { HamMenuActive } = useContext(HamMenuContext);
+  const { toggler } = useContext(HamMenuContext);
+
   return (
     <ul className="nav-buttons">
       <button className="language">

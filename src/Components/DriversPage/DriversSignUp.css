@@ -1,0 +1,13 @@
+.sign-up-content {
+  display: flex;
+  align-items: center;
+  padding: 30px 0px;
+  border-bottom: 1px solid black;
+  max-width: fit-content;
+}
+.sign-up-content h2 {
+  margin-right: 200px;
+}
+.sign-up p {
+  margin: 100px 0px 70px;
+}

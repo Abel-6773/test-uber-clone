@@ -1,19 +1,16 @@
 import Header from "./Components/Header/Header";
-import BtnUnderlineDark from "./Components/UI/BtnUnderlineDark";
-import HomePage from "./Pages/HomePage";
-import { useState } from "react";
-export default function Root() {
-  const [HamMenuActive, setHamMenuActive] = useState(false);
-  const toggler = function () {
-    setHamMenuActive((c) => {
-      return !c;
-    });
-  };
+import Footer from "./Components/Footer/Footer";
+import { HamMenuProvider } from "./Services/Context/HamMenuContext";
+import { Outlet } from "react-router-dom";
 
+export default function Root() {
   return (
     <div className="root">
-      <Header HamMenuActive={HamMenuActive} toggler={toggler} />
-      <HomePage HamMenuActive={HamMenuActive} />
+      <HamMenuProvider>
+        <Header />
+        <Outlet />
+        <Footer />
+      </HamMenuProvider>
     </div>
   );
 }

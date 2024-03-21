@@ -1,0 +1,9 @@
+.download-app {
+  background-color: var(--paleGray);
+  border: 1px;
+  padding: 50px 0px;
+}
+.download-app-content .app-link {
+  width: fit-content;
+  margin: 30px 0px;
+}

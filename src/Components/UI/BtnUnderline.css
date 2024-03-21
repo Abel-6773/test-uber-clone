@@ -1,13 +1,18 @@
-.btn-underline-dark button {
+.btn-underline button {
   position: relative;
   display: inline-block;
   cursor: pointer;
   border: 0px;
+}
+.btn-underline.dark button {
   background-color: var(--white);
   color: var(--black);
 }
-
-.btn-underline-dark button::before {
+.btn-underline.light button {
+  background-color: var(--black);
+  color: var(--white);
+}
+.btn-underline button::before {
   content: "";
   position: absolute;
   bottom: 0;
@@ -18,7 +23,11 @@
   transition: width 0.3s ease, background-color 0.3s ease;
 }
 
-.btn-underline-dark button:hover::before {
+.btn-underline.dark button:hover::before {
   width: 100%;
   background-color: black;
+}
+.btn-underline.light button:hover::before {
+  width: 100%;
+  background-color: white;
 }

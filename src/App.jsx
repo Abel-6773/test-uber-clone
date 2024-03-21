@@ -1,4 +1,6 @@
 import "./App.css";
+import DriversPage from "./Pages/DriversPage";
+import HomePage from "./Pages/HomePage";
 import {
   Route,
   RouterProvider,
@@ -9,7 +11,13 @@ import {
 import Root from "./Root";
 
 const router = createBrowserRouter(
-  createRoutesFromElements(<Route path="/" element={<Root />}></Route>)
+  createRoutesFromElements(
+    <Route path="/" element={<Root />}>
+      <Route index element={<HomePage />} />
+      <Route path="DriversPage" element={<DriversPage />} />
+      <Route />
+    </Route>
+  )
 );
 function App() {
   return (

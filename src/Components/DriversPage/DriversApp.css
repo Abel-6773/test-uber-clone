@@ -1,0 +1,13 @@
+.drivers-app {
+  padding: 50px 0px;
+  height: 500px;
+  background-image: url("C:\Users\abelt\OneDrive\Desktop\Portfolio\Uber-Clone\public\images\ForDriversPageimgs\D_Driver_Campaign-Carbon-arabic2x.png");
+  background-position: center;
+  background-size: cover;
+}
+.drivers-app-content div {
+  max-width: 400px;
+}
+.drivers-app .btn-underline.dark button {
+  background-color: var(--paleGray);
+}

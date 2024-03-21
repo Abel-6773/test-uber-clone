@@ -2,15 +2,15 @@ import { NavLink } from "react-router-dom";
 import "./Header.css";
 import PageLinks from "./PageLinks";
 import NavButtons from "./NavButtons";
-import DropDown from "./DropDown";
-export default function Header({ HamMenuActive, toggler }) {
+import HamMenu from "./HamMenu";
+export default function Header() {
   return (
     <header className="bg-dark">
       <nav className="nav-bar container-xl txt-sm">
         <PageLinks />
-        <NavButtons HamMenuActive={HamMenuActive} toggler={toggler} />
+        <NavButtons />
       </nav>
-      <DropDown HamMenuActive={HamMenuActive} />
+      <HamMenu />
       {/* {HamMenuActive && } */}
     </header>
   );

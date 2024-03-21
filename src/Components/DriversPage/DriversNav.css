@@ -1,0 +1,27 @@
+.drivers-nav {
+  position: sticky;
+  top: 0px;
+  background-color: var(--white);
+}
+.drivers-nav-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.drivers-logo {
+  position: sticky;
+}
+.drivers-links ul {
+  display: flex;
+}
+.drivers-links li {
+  list-style: none;
+  margin: 10px;
+}
+.drivers-links a {
+  text-decoration: none;
+  color: var(--darkGray);
+}
+.drivers-links a:hover {
+  color: var(--black);
+}

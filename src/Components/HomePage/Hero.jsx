@@ -1,18 +1,18 @@
 import "./Hero.css";
 import Input from "./Input";
-import BtnLight from "../UI/BtnLight";
+import Btn from "../UI/Btn";
 
 export default function Hero() {
   return (
-    <section className="hero bg-dark">
-      <div className="hero-content container-lg">
-        <div className="hero-input">
+    <section className="homepage-hero bg-dark">
+      <div className="homepage-hero-content container-lg">
+        <div className="homepage-hero-input">
           <h1 className="txt-xl">Go wherever you want with Uber.</h1>
           <p className="txt-sm">Order a ride, get in and go.</p>
           <Input />
-          <BtnLight BtnTxt="See prices" BtnStyle="black" />
+          <Btn BtnTxt="See prices" BtnStyle="light" />
         </div>
-        <div className="hero-img">
+        <div className="homepage-hero-img">
           <img src="\images\Ride-with-Uber.jpg" alt="" />
         </div>
       </div>

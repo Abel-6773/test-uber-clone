@@ -1,20 +1,25 @@
-import "./DropDown.css";
+import "./HamMenu.css";
 import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 import { faAngleUp } from "@fortawesome/free-solid-svg-icons";
-import { useState } from "react";
+import { useContext, useState } from "react";
+import HamMenuContext from "../../Services/Context/HamMenuContext";
 import NestedDropDown from "./NestedDropDown";
-export default function DropDown({ HamMenuActive }) {
+
+export default function HamMenu() {
+  const { HamMenuActive } = useContext(HamMenuContext);
   const [isActive, setIsActive] = useState(false);
+
   const toggleActive = function () {
     setIsActive((c) => {
       return !c;
     });
   };
+
   return (
-    <div className={HamMenuActive ? "drop-down active" : "drop-down"}>
+    <div className={HamMenuActive ? "Ham-Menu active" : "Ham-Menu"}>
       <ul className="txt-lg">
         <NavLink>
           <li>Passing</li>

@@ -1,0 +1,19 @@
+.drivers-about h2 {
+  margin-top: 30px;
+}
+.drivers-about .info-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0px;
+}
+.drivers-about .info {
+  max-width: 350px;
+}
+.drivers-about img {
+  max-width: 100%;
+  margin-top: 30px;
+}
+.drivers-about .fontawesome {
+  margin-bottom: 10px;
+}
