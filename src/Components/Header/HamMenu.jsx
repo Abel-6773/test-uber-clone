@@ -10,10 +10,10 @@ import NestedDropDown from "./NestedDropDown";
 
 export default function HamMenu() {
   const { HamMenuActive } = useContext(HamMenuContext);
-  const [isActive, setIsActive] = useState(false);
+  const [isDropDownActive, setIsDropDownActive] = useState(false);
 
   const toggleActive = function () {
-    setIsActive((c) => {
+    setIsDropDownActive((c) => {
       return !c;
     });
   };
@@ -24,7 +24,7 @@ export default function HamMenu() {
         <NavLink>
           <li>Passing</li>
         </NavLink>
-        <NavLink>
+        <NavLink to="DriversPage">
           <li>For drivers</li>
         </NavLink>
         <NavLink>
@@ -36,13 +36,13 @@ export default function HamMenu() {
         <NavLink onClick={toggleActive}>
           <div className="information">
             <li>Information</li>
-            {isActive ? (
+            {isDropDownActive ? (
               <FontAwesomeIcon icon={faAngleUp} />
             ) : (
               <FontAwesomeIcon icon={faAngleDown} />
             )}
           </div>
-          {isActive && <NestedDropDown />}
+          {isDropDownActive && <NestedDropDown />}
         </NavLink>
         <NavLink>
           <li>Help</li>

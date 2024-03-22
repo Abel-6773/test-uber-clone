@@ -3,11 +3,19 @@
   align-items: center;
   padding: 30px 0px;
   border-bottom: 1px solid black;
-  max-width: fit-content;
+  max-width: 550px;
 }
 .sign-up-content h2 {
-  margin-right: 200px;
+  width: 95%;
 }
 .sign-up p {
   margin: 100px 0px 70px;
+}
+
+/* responsiveness */
+
+@media (max-width: 320px) {
+  .sign-up-content {
+    padding: 30px 0px 5px;
+  }
 }

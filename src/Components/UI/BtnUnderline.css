@@ -3,6 +3,7 @@
   display: inline-block;
   cursor: pointer;
   border: 0px;
+  z-index: 1;
 }
 .btn-underline.dark button {
   background-color: var(--white);

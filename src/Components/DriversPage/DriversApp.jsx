@@ -11,6 +11,7 @@ export default function DriversApp() {
             drivers.
           </p>
           <BtnUnderline BtnTxt="Learn more" BtnStyle="dark" />
+          <img src="\images\ForDriversPageimgs\mobileapp.png" alt="" />
         </div>
       </div>
     </section>
