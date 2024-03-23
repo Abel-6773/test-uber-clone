@@ -24,7 +24,7 @@ export default function BeingBuilt() {
       </div>
       <div className="img-container">
         <img
-          src="public\BeingBuiltAssets\tingey-injury-law-firm-rv9NXAvl2gg-unsplash.jpg"
+          src="\BeingBuiltAssets\tingey-injury-law-firm-rv9NXAvl2gg-unsplash.jpg"
           alt="Uber site image"
         />
       </div>
