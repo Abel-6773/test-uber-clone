@@ -9,13 +9,16 @@ import {
 } from "react-router-dom";
 
 import Root from "./Root";
+import BeingBuilt from "./Components/Features/BeingBuilt";
+import PageNotFound from "./Components/Features/PageNotFound";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Root />}>
       <Route index element={<HomePage />} />
       <Route path="DriversPage" element={<DriversPage />} />
-      <Route />
+      <Route path="BeingBuilt" element={<BeingBuilt />} />
+      <Route path="*" element={<PageNotFound />} />
     </Route>
   )
 );

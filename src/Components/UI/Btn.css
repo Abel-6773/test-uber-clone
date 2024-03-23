@@ -18,5 +18,5 @@
   border-color: var(--white);
 }
 .btn.light button:hover {
-  background-color: var(--lightGray);
+  background-color: var(--paleGray);
 }
