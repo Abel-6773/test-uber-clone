@@ -39,7 +39,7 @@ export default function PageLinks() {
         <NavLink to="BeingBuilt">
           <li>Passing</li>
         </NavLink>
-        <NavLink to="BeingBuilt">
+        <NavLink to="BusinessPage">
           <li>Business</li>
         </NavLink>
         <div className="information">
