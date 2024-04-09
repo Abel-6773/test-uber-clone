@@ -4,8 +4,8 @@
   width: fit-content;
 }
 .from-dot {
-    width: 37px;
-    height: 37px;
+    width: 7px;
+    height: 7px;
     background-color: var(--black);
     border-radius: 50%;
     position: absolute;
