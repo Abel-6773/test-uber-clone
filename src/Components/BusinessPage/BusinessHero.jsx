@@ -19,7 +19,7 @@ export default function BusinessHero (){
             />
           </div>
         </div>
-        <div className="driverspage-hero-img">
+        <div className="businesspage-hero-img">
           <img
             src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_558,h_558/v1685006943/assets/07/61a159-ae6b-4821-bcb4-83aaf8c4bdf6/original/220428_UBER_CDMX_M-DT1-A_001035_VS_R2.jpg"
             alt="Image of a business woman"

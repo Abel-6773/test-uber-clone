@@ -13,7 +13,7 @@
     height: 550px;
   }
   .businesspage-hero-input {
-    width: 500px;
+    width: 40%;
   }
   .businesspage-hero-input h1,
   .businesspage-hero-input p, .platform-section {
@@ -49,16 +49,23 @@
     .businesspage-hero-input {
       width: 100%;
     }
+    .businesspage-hero-input {
+      margin-bottom: 50px;
+    }
   }
   @media (max-width: 550px) {
-    .businesspage-hero-img img {
-      display: none;
-    }
+    
     .businesspage-hero .buttons {
       display: block;
       margin-top: 30px;
     }
     .businesspage-hero .btn {
+      margin-bottom: 20px;
+    }
+    .platform-section .benefits{
+      display: block;
+    }
+    .platform-section .benefits .benefit{
       margin-bottom: 20px;
     }
   }
