@@ -33,13 +33,13 @@ export default function PageLinks() {
         <p className="logo txt-logo">Uber</p>
       </NavLink>
       <ul>
-        <NavLink to="DriversPage">
+        <NavLink to="/DriversPage">
           <li>For drivers</li>
         </NavLink>
-        <NavLink to="BeingBuilt">
+        <NavLink to="/BeingBuilt">
           <li>Passing</li>
         </NavLink>
-        <NavLink to="BusinessPage">
+        <NavLink to="/BusinessPage">
           <li>Business</li>
         </NavLink>
         <div className="information">
