@@ -2,6 +2,7 @@
   max-width: 20px;
   margin: 0px 25px;
 }
+<<<<<<< HEAD
 .cost-section-progress.before {
   display: none;
 }
@@ -56,6 +57,16 @@
 @media (max-width: 800px) {
   .cost-section-progress.before {
     display: block;
+=======
+.from-dot {
+    width: 37px;
+    height: 37px;
+    background-color: var(--black);
+    border-radius: 50%;
+    position: absolute;
+    top: 45%;
+    left: 15px;
+>>>>>>> parent of d7b5be3 (bug fix)
   }
   .cost-section-progress.after {
     display: none;
