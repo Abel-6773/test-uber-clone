@@ -4,6 +4,7 @@ import { DropDownTogglerProvider } from "./Services/Context/DropDownTogglerConte
 import Header from "./Components/Header/Header";
 import Footer from "./Components/Footer/Footer";
 import { Outlet } from "react-router-dom";
+import Test from "./Pages/Test";
 export default function Root() {
   return (
     <div>
