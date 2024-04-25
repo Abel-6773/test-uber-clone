@@ -17,8 +17,7 @@ import Test from "./Pages/Test";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Root />}>
-      {/* <Route index element={<HomePage />} /> */}
-      <Route index element={<Test />} />
+      <Route index element={<HomePage />} />
       <Route path="DriversPage" element={<DriversPage />} />
       <Route path="BusinessPage" element={<BusinessPage />} />
       <Route path="BeingBuilt" element={<BeingBuilt />} />

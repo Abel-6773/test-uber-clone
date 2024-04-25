@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./CompaniesInfo.css";
 import { v4 as uuid } from "uuid";
 export default function CompaniesInfo() {
   const [isHovered, setIsHovered] = useState([
@@ -33,7 +34,7 @@ export default function CompaniesInfo() {
             }}
           >
             <img
-              className={isHovered[0].isHovered && "hovered"}
+              className={isHovered[0].isHovered ? "hovered" : "not-hovered"}
               src="https://www.uber-assets.com/image/upload/q_auto:eco,c_fill,w_360,h_203/v1679435963/assets/a6/c383fd-e0a2-4534-9651-40aa6f143f93/original/ilo-business_travel-360x204-expandable.svg"
               alt=""
             />
@@ -49,7 +50,7 @@ export default function CompaniesInfo() {
             }}
           >
             <img
-              className={isHovered[1].isHovered && "hovered"}
+              className={isHovered[1].isHovered ? "hovered" : "not-hovered"}
               src="https://www.uber-assets.com/image/upload/q_auto:eco,c_fill,w_360,h_203/v1679436006/assets/bd/b27aa4-3019-479f-9b41-c9bbc5187d33/original/ilo-courtesy_rides-360x204-expandable.svg"
               alt=""
             />
@@ -65,7 +66,7 @@ export default function CompaniesInfo() {
             }}
           >
             <img
-              className={isHovered[2].isHovered && "hovered"}
+              className={isHovered[2].isHovered ? "hovered" : "not-hovered"}
               src="https://www.uber-assets.com/image/upload/q_auto:eco,c_fill,w_360,h_203/v1679436116/assets/d9/ca79d1-d191-442b-8a19-df7cc125a59c/original/ilo-meal_programs-360x204-expandable.svg"
               alt=""
             />
